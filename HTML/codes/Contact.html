@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Adrian DaCosta</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="../codes/style.css"> <!-- Linking external CSS -->
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="personality.html">Personality</a></li>
+            <li><a href="professional.html">Professional</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+            <li><a href="personal-development.html">Personal Development</a></li>
+            <li><a href="reference.html"> Reference <a/></li>
+        </ul>
+    </nav>
+    <div class="title-box">Contact Mr DaCosta</div>
+    
+    <div class="container">
+        <form action="submit_contact.php" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <input type="submit" value="Send Message">
+        </form>
+
+        <div class="contact-info">
+            <p>📧 Email: <a href="mailto:adrian1@gmail.com">adrian1@gmail.com</a></p>
+            <p>📞 Phone: (876-532-8888)</p>
+        </div>
+    </div>
+
+</body>
+</html>
