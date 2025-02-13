@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+/* Navigation */
+nav {
+    background-color: #333;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #00aaff;
+}
+/* Reference Box */
+.reference-box {
+    background: #0073e6;  /* Blue background */
+    color: white;  /* White text */
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px; /* Restrict max width for better layout */
+    margin: 20px auto;
+    text-align: left;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.reference-box h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.reference-box p {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.reference-box a {
+    color: #ffcc00;  /* Yellow links for contrast */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.reference-box a:hover {
+    text-decoration: underline;
+}
+/* Header */
+header {
+    background: linear-gradient(to right, #0073e6, #00aaff);
+    color: white;
+    padding: 50px 20px;
+    border-bottom: 5px solid #ffcc00;
+}
+
+header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Main Content Section */
+section {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Image Gallery */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.gallery img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Links */
+.contact {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact:hover {
+    color: #ffcc00;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
